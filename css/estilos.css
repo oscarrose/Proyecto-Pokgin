@@ -1,0 +1,60 @@
+html,body{
+    /* estilos referente al body y al html */
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pokgin_logo{
+
+    /* Propiedades para el logo definir el estilo */
+
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-27)/var(--unnamed-line-spacing-36) var(--unnamed-font-family-segoe-ui);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    font: normal 27px/36px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: bold;
+    
+}
+nav{
+    /* Para arreglar el navbar */
+    background-color: #79CC2B;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+
+
+nav ul{
+    /* Para arreglar los elementos de la lista */
+    display: flex;
+    
+}
+
+
+nav li {
+
+    /* Para arreglar cada elemento de la lista,
+    las opciones que van en el menu dentro de la tag li(faqs y productos) */
+
+    padding-right: 15px;
+    list-style: none;
+}
+
+nav ul li a{
+
+    /* Para especificar directamente que es a la tag a cambiar los styles de ella */
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    /* Para lograr el efecto de cambiar de color las letras del menu */
+
+    color: white;
+    
+}
